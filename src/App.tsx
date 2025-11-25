@@ -9,6 +9,7 @@ import Signup from './components/Applicants/Signup/Signup';
 import SearchCompanies from './components/Applicants/SearchCompanies/SearchCompanies';
 import NotFoundPage from './components/Basic/NotFoundPage';
 import './App.css';
+import Dashboard from './components/Recruiters/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="*" element={<NotFoundPage />} />
+            <Route path="/Company" element={<Dashboard />} />
           </Routes>
         </main>
         <Footer />
