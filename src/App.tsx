@@ -9,6 +9,9 @@ import SearchCompanies from './components/Applicants/SearchCompanies/SearchCompa
 import NotFoundPage from './components/Basic/NotFoundPage';
 import CompanyPage from './components/Applicants/CompanyProfile/CompanyPage';
 import type { Company } from './components/Applicants/CompanyProfile/Types';
+
+import Dashboard from './components/Recruiters/Dashboard/Dashboard';
+// import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 import './App.css';
 
 function App() {
@@ -87,6 +90,10 @@ function App() {
             <Route path="/companies/:id" element={<CompanyPage company={testCompany} />} />
 
             <Route path="*" element={<NotFoundPage />} />
+
+            // this is handled for now  ( moaz )
+            <Route path="/Company" element={<Dashboard />} />
+            {/* <Route path="/" element={<DashboardSettings />} /> */}
           </Routes>
         </main>
         <Footer />
@@ -96,4 +103,3 @@ function App() {
 }
 
 export default App;
-
