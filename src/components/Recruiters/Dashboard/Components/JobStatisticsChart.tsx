@@ -23,43 +23,40 @@ const mockMetricData = {
 // Data for the bar chart based on time filter
 const mockChartData = {
     'Week': [
-        { name: 'Mon', 'Job View': 120, 'Job Applications': 280 }, // RENAMED
-        { name: 'Tue', 'Job View': 180, 'Job Applications': 320 }, // RENAMED
-        { name: 'Wed', 'Job View': 122, 'Job Applications': 34 },  // RENAMED
-        { name: 'Thu', 'Job View': 90, 'Job Applications': 350 }, // RENAMED
-        { name: 'Fri', 'Job View': 150, 'Job Applications': 200 }, // RENAMED
-        { name: 'Sat', 'Job View': 100, 'Job Applications': 120 }, // RENAMED
-        { name: 'Sun', 'Job View': 50, 'Job Applications': 180 }, // RENAMED
+        { name: 'Mon', 'Job View': 120, 'Job Applications': 280 }, 
+        { name: 'Tue', 'Job View': 180, 'Job Applications': 320 }, 
+        { name: 'Wed', 'Job View': 122, 'Job Applications': 34 },  
+        { name: 'Thu', 'Job View': 90, 'Job Applications': 350 }, 
+        { name: 'Fri', 'Job View': 150, 'Job Applications': 200 }, 
+        { name: 'Sat', 'Job View': 100, 'Job Applications': 120 }, 
+        { name: 'Sun', 'Job View': 50, 'Job Applications': 180 }, 
     ],
     'Month': [
-        { name: 'Wk 1', 'Job View': 4000, 'Job Applications': 1500 }, // RENAMED
-        { name: 'Wk 2', 'Job View': 3500, 'Job Applications': 1200 }, // RENAMED
-        { name: 'Wk 3', 'Job View': 2800, 'Job Applications': 1000 }, // RENAMED
-        { name: 'Wk 4', 'Job View': 3200, 'Job Applications': 1300 }, // RENAMED
+        { name: 'Wk 1', 'Job View': 4000, 'Job Applications': 1500 }, 
+        { name: 'Wk 2', 'Job View': 3500, 'Job Applications': 1200 }, 
+        { name: 'Wk 3', 'Job View': 2800, 'Job Applications': 1000 }, 
+        { name: 'Wk 4', 'Job View': 3200, 'Job Applications': 1300 }, 
     ],
     'Year': [
-        { name: 'Q1', 'Job View': 28000, 'Job Applications': 12000 }, // RENAMED
-        { name: 'Q2', 'Job View': 30000, 'Job Applications': 14000 }, // RENAMED
-        { name: 'Q3', 'Job View': 32000, 'Job Applications': 15000 }, // RENAMED
-        { name: 'Q4', 'Job View': 30000, 'Job Applications': 13000 }, // RENAMED
+        { name: 'Q1', 'Job View': 28000, 'Job Applications': 12000 }, 
+        { name: 'Q2', 'Job View': 30000, 'Job Applications': 14000 }, 
+        { name: 'Q3', 'Job View': 32000, 'Job Applications': 15000 }, 
+        { name: 'Q4', 'Job View': 30000, 'Job Applications': 13000 }, 
     ],
 };
 
-// Define the available time filters and chart tabs
+
 const timeFilters = ['Week', 'Month', 'Year'];
 const chartTabs = ['Overview', 'Job Views', 'Job Applications'];
 
 
-// --- CHART SUB-COMPONENTS ---
-
 // Custom Tooltip to display specific data on hover (matching the dark box style)
-const CustomTooltip = ({ active, payload, label }: any) => {
+const CustomTooltip = ({ active, payload}: any) => {
     if (active && payload && payload.length) {
         return (
             <div className="bg-gray-800 text-white p-2 rounded-lg text-xs shadow-xl">
                 {payload.map((p: any, index: number) => (
                     <div key={index} className="flex justify-between items-center space-x-2">
-                        {/* Ensure p.name is displayed correctly (e.g., 'Job View' or 'Job Applications') */}
                         <span style={{ color: p.color }}>{p.value.toLocaleString()}</span>
                         <span className="text-gray-400">{p.name}</span>
                     </div>
@@ -81,20 +78,17 @@ const MetricCard: React.FC<MetricCardProps> = ({ data, timeFrame }) => {
     // Determine color and arrow based on the change percentage
     const isPositive = data.change >= 0;
     const arrow = isPositive ? '▲' : '▼';
-    // Use Tailwind's green for positive changes and red for negative changes
+    // Green for positive changes and red for negative changes
     const colorClass = isPositive ? 'text-green-500' : 'text-red-500';
 
     return (
         <article className="bg-white p-4 rounded-lg shadow-md border border-gray-100 h-40">
-            {/* Reverted H3 for title and removed the forced text-sm class */}
             <h3 className="text-[#25324B] flex justify-between items-center mb-1">
                 {data.title}
                 <span className="p-2 bg-[#E9EBFD] rounded-full">{data.icon}</span>
             </h3>
-            {/* Reverted H1 for count and removed the forced text-3xl font-bold classes */}
             <h1 className="text-[#25324B] mb-1">{data.count.toLocaleString()}</h1>
 
-            {/* Reverted to text-base for Percentage Change */}
             <p className={"text-base font-semibold text-[#7C8493]"}>
                 {timeFrame} <span className={`text-base font-semibold ${colorClass}`}>{Math.abs(data.change).toFixed(1)}% {arrow}</span>
             </p>
@@ -103,13 +97,10 @@ const MetricCard: React.FC<MetricCardProps> = ({ data, timeFrame }) => {
 };
 
 
-// --- MAIN COMPONENT ---
 
 export default function JobStatisticsChart() {
-    // --- State 1: Time Filter (Week/Month/Year) ---
     const [activeFilter, setActiveFilter] = useState(timeFilters[0]); // Default to 'Week'
 
-    // --- State 2: Content Tab (Overview/Views/Applications) ---
     const [activeTab, setActiveTab] = useState(chartTabs[0]); // Default to 'Overview'
 
     // Get the current metric and chart data based on the active filter
@@ -191,7 +182,7 @@ export default function JobStatisticsChart() {
                     {/* Left side: title + date */}
                     <div className="w-1/2">
                         {/* h3 remains text-xl font-bold (700) to comply with user's CSS */}
-                        <h3 className="pb-1 text-xl font-bold text-[#25324B]">Job Statistics</h3>
+                        <h2 className="pb-1 text-[#25324B]">Job Statistics</h2>
                         <p className="text-sm font-normal text-[#7C8493]">From July 19 to July 25</p>
                     </div>
 
@@ -287,7 +278,6 @@ export default function JobStatisticsChart() {
                             />
                         </aside>
                     </div>
-
                 </section>
             </main >
         </>
