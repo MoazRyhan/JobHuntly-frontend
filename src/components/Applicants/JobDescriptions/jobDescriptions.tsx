@@ -26,6 +26,7 @@ const jobDescriptions = () => {
   // check the respone jop object
   useEffect(() => {
     console.log(job)
+    console.log(job?.job_needs)
   }, [job])
   return (
     <>
@@ -63,20 +64,34 @@ const jobDescriptions = () => {
               </h2>
               <p className="text-[#515B6F] mt-4 mb-10">{job?.description}</p>
             </div>
-            <div>
-              <h2 className="text-[#25324B] text-3xl font-semibold">
-                Responsibilities
-              </h2>
-              <div className="flex items-center max-sm:items-start text-[#515B6F] my-2">
-                <img className="mr-1" src="/checkIcon.png" alt="check Icon" />
-                Community engagement to ensure that is supported and actively
-                represented online
-              </div>
-              <div className="flex items-center text-[#515B6F] my-2">
-                <img className="mr-1" src="/checkIcon.png" alt="check Icon" />
-                Community engagement to ensure that is supported and actively
-                represented online
-              </div>
+
+            <div className="job-needs">
+              {job?.job_needs?.map((item: any, index: any) => {
+                const key = Object.keys(item)[0] // "responsibilities", "Who You Are", "Nice To Haves".
+                const list = item[key] // array of strings
+
+                return (
+                  <div key={index} className="mb-8">
+                    <h2 className="text-[#25324B] text-3xl font-semibold capitalize">
+                      {key}
+                    </h2>
+
+                    {list.map((line: any, i: any) => (
+                      <div
+                        key={i}
+                        className="flex items-center max-sm:items-start text-[#515B6F] my-2"
+                      >
+                        <img
+                          className="mr-1"
+                          src="/checkIcon.png"
+                          alt="check Icon"
+                        />
+                        {line}
+                      </div>
+                    ))}
+                  </div>
+                )
+              })}
             </div>
           </div>
 
