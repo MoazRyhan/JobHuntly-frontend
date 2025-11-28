@@ -7,7 +7,7 @@ import Login from './components/Applicants/Login/Login'
 import Signup from './components/Applicants/Signup/Signup'
 import SearchCompanies from './components/Applicants/SearchCompanies/SearchCompanies'
 import NotFoundPage from './components/Basic/NotFoundPage'
-import JobDescriptions from './components/Applicants/JobDescriptions/jobDescriptions'
+import JobDescriptions from './components/Applicants/JobDescriptions/JobDescriptions'
 import './App.css'
 
 function App() {
