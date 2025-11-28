@@ -1,9 +1,10 @@
 import React from 'react'
+import CategoryHeader from './CategoryHeader'
 import HeaderTitle from './HeaderTitle'
 import LandingCompany from './LandingCompany'
 
 
- function LandingPage() {
+  function LandingPage() {
 
 
 
@@ -11,6 +12,7 @@ import LandingCompany from './LandingCompany'
     <> 
       <HeaderTitle/>
       <LandingCompany/>
+      <CategoryHeader/>
     </>
   )
 }
