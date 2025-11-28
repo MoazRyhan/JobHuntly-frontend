@@ -24,10 +24,9 @@ const jobDescriptions = () => {
   }, [])
 
   // check the respone jop object
-  useEffect(() => {
-    console.log(job)
-    console.log(job?.job_needs)
-  }, [job])
+  // useEffect(() => {
+  //   console.log(job)
+  // }, [job])
   return (
     <>
       <section className="jobDescriptionsCard bg-[#F8F8FD] my-14 w-screen flex justify-center">
