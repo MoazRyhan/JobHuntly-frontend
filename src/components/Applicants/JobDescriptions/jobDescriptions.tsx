@@ -1,10 +1,10 @@
-import ApplyButton from './ApplyButoon'
-import PerksBenefits from './PerksBenefits'
-import SimilarJops from './SimilarJops'
+import ApplyButton from './ApplyButoon.tsx'
+import PerksBenefits from './PerksBenefits.tsx'
+import SimilarJops from './SimilarJops.tsx'
 import { useEffect, useState } from 'react'
 import instance from '../../AxiosConfig/instance.ts'
 
-const jobDescriptions = () => {
+const JobDescriptions = () => {
   type Job = {
     [key: string]: any
   }
@@ -170,4 +170,4 @@ const jobDescriptions = () => {
   )
 }
 
-export default jobDescriptions
+export default JobDescriptions
