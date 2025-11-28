@@ -135,7 +135,7 @@
       "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
       "job_needs": [
         {
-          "responsibilities": [
+          "Responsibilities": [
             "Community engagement to ensure that is supported and actively represented online",
             "Focus on social media content development and publication",
             "Marketing and strategy support",
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "who_you_are": [
+          "Who You Are": [
             "You get energy from people and building the ideal work environment",
             "You have a sense for beautiful spaces and office experiences",
             "You are a confident office manager, ready for added responsibilities",
@@ -153,7 +153,7 @@
           ]
         },
         {
-          "nice_to_haves": [
+          "Nice To Haves": [
             "Fluent in English",
             "Project management skills",
             "Copy editing skills"
@@ -161,7 +161,6 @@
         }
       ],
       "about_this_role": {
-        "capacity": "5 applied of 10 capacity",
         "apply_before": "July 31, 2021",
         "job_posted_on": "July 1, 2021",
         "job_type": "Full-Time",
@@ -176,148 +175,7 @@
         "Copy Editing"
       ]
     },
-    {
-      "id": "job_102",
-      "companyId": "comp_002",
-      "title": "Senior Brand Designer",
-      "type": "Full-Time",
-      "level": "Senior",
-      "location": "San Francisco, USA",
-      "categories": ["Design", "Brand"],
-      "salary": {
-        "min": 160000,
-        "max": 210000,
-        "currency": "USD",
-        "period": "yearly"
-      },
-      "postedAt": "2023-10-24T08:30:00Z",
-      "description": "<p>Join our core design systems team and help shape the future of Discord's visual identity.</p>",
-      "requirements": [
-        "7+ years experience",
-        "Portfolio required",
-        "Leadership experience"
-      ],
-      "capacity": 1,
-      "applicantsCount": 142,
-      "isHot": true
-    },
-    {
-      "id": "job_103",
-      "companyId": "comp_003",
-      "title": "Interactive Developer",
-      "type": "Contract",
-      "level": "Mid Level",
-      "location": "Remote",
-      "categories": ["Engineering", "Frontend"],
-      "salary": {
-        "min": 80,
-        "max": 120,
-        "currency": "USD",
-        "period": "hourly"
-      },
-      "postedAt": "2023-10-23T15:45:00Z",
-      "description": "<p>Help us build the next generation of testing tools using WebGL and Canvas.</p>",
-      "requirements": [
-        "3+ years frontend",
-        "WebGL experience",
-        "JS performance skills"
-      ],
-      "capacity": 2,
-      "applicantsCount": 8,
-      "isHot": false
-    },
-    {
-      "id": "job_104",
-      "companyId": "comp_001",
-      "title": "Product Designer",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "Berlin, Germany",
-      "categories": ["Design", "Product"],
-      "salary": {
-        "min": 60000,
-        "max": 80000,
-        "currency": "EUR",
-        "period": "yearly"
-      },
-      "postedAt": "2023-10-20T09:00:00Z",
-      "description": "<p>We need a product designer to lead our mobile app squad.</p>",
-      "requirements": [
-        "3+ years product design",
-        "Mobile-first mindset",
-        "Prototyping skills"
-      ],
-      "capacity": 1,
-      "applicantsCount": 56,
-      "isHot": false
-    },
-    {
-      "id": "job_105",
-      "companyId": "comp_003",
-      "title": "HR Manager",
-      "type": "Part-Time",
-      "level": "Senior",
-      "location": "Remote",
-      "categories": ["HR"],
-      "salary": {
-        "min": 4000,
-        "max": 6000,
-        "currency": "USD",
-        "period": "monthly"
-      },
-      "postedAt": "2023-10-18T11:20:00Z",
-      "description": "<p>Looking for an experienced HR manager to handle our remote-first culture.</p>",
-      "requirements": ["5+ years HR", "Remote hiring experience"],
-      "capacity": 1,
-      "applicantsCount": 22,
-      "isHot": false
-    },
-    {
-      "id": "job_106",
-      "companyId": "comp_004",
-      "title": "Backend Engineer",
-      "type": "Full-Time",
-      "level": "Senior",
-      "location": "Stockholm, Sweden",
-      "categories": ["Engineering", "Backend"],
-      "salary": {
-        "min": 70000,
-        "max": 110000,
-        "currency": "EUR",
-        "period": "yearly"
-      },
-      "postedAt": "2023-11-01T09:00:00Z",
-      "description": "<p>Work on high-scale systems handling millions of daily users.</p>",
-      "requirements": [
-        "5+ years backend",
-        "Distributed systems",
-        "Kotlin/Java"
-      ],
-      "capacity": 3,
-      "applicantsCount": 78,
-      "isHot": true
-    },
-    {
-      "id": "job_107",
-      "companyId": "comp_005",
-      "title": "Design Systems Engineer",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "New York, USA",
-      "categories": ["Design", "Engineering"],
-      "salary": {
-        "min": 90000,
-        "max": 120000,
-        "currency": "USD",
-        "period": "yearly"
-      },
-      "postedAt": "2023-11-02T12:00:00Z",
-      "description": "<p>Maintain and improve our design system components and docs.</p>",
-      "requirements": ["React", "Storybook", "Component-driven development"],
-      "capacity": 2,
-      "applicantsCount": 34,
-      "isHot": false
-    },
+
     {
       "id": "job_108",
       "companyId": "comp_001",
