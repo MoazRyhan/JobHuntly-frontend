@@ -3,6 +3,8 @@ import mainImage from "../../../assets/images/Logo.svg"
 import HouseIcon from "../../../assets/icons/house-solid-full (1).svg" 
 import FolderIcon from "../../../assets/icons/folder-closed-solid-full.svg" 
 import UserIcon from "../../../assets/icons/user-solid-full.svg" 
+import HelpIcon from "../../../assets/icons/circle-question-regular-full.svg" 
+import GearIcon from "../../../assets/icons/gear-solid-full.svg" 
 import ProfileImage from "../../../assets/images/Property 1=Divvy.png" 
 
 
@@ -40,15 +42,15 @@ export function DashboardSidebarComponent(): JSX.Element {
         </nav>
 
         {/* Settings */}
-        <div className="mt-10">
+        <div className="mt-10 text-[#7C8493]">
           <h4 className="text-xs text-[#7C8493] uppercase mb-2">Settings</h4>
 
           <ul className="space-y-2">
-            <li className="px-3 py-2 rounded-lg bg-purple-50 text-[#4640DE] font-semibold cursor-pointer">
-              Settings
+            <li className=" flex items-center gap-3 px-3 py-2 rounded-lg bg-purple-50 text-[#4640DE] font-semibold cursor-pointer">
+             <img  className="w-6 h-6" src={GearIcon }  alt="gearIcon" /> Settings
             </li>
-            <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-              Help Center
+            <li className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+             <img  className="w-6 h-6" src={HelpIcon }  alt="helpIcon" /> Help Center
             </li>
           </ul>
         </div>
