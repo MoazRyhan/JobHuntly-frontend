@@ -1,10 +1,11 @@
-import ApplyButton from './ApplyButoon'
-import PerksBenefits from './PerksBenefits'
-import SimilarJops from './SimilarJops'
+import ApplyButton from './ApplyButoon.tsx'
+import PerksBenefits from './PerksBenefits.tsx'
+import SimilarJops from './SimilarJops.tsx'
 import { useEffect, useState } from 'react'
 import instance from '../../AxiosConfig/instance.ts'
+import './style.css'
 
-const jobDescriptions = () => {
+const JobDescriptions = () => {
   type Job = {
     [key: string]: any
   }
@@ -23,10 +24,6 @@ const jobDescriptions = () => {
     getJop()
   }, [])
 
-  // check the respone jop object
-  // useEffect(() => {
-  //   console.log(job)
-  // }, [job])
   return (
     <>
       <section className="jobDescriptionsCard bg-[#F8F8FD] my-14 w-screen flex justify-center">
@@ -132,7 +129,7 @@ const jobDescriptions = () => {
                 </span>
               </div>
             </div>
-            <div className="Categories mt-3">
+            <div className="Categories mt-8">
               <h2 className="text-[#25324B] text-3xl font-semibold">
                 Categories
               </h2>
@@ -145,20 +142,21 @@ const jobDescriptions = () => {
                 </span>
               </div>
             </div>
-            <div className="RequiredSkills">
+            <div className="RequiredSkills mt-4">
               <h2 className="text-[#25324B] text-3xl font-semibold">
-                Categories
+                Required Skills
               </h2>
               <div className="flex flex-wrap">
-                <span className="text-[#4640DE] p-2 bg-[#F8F8FD] w-fit inline-block text-base font-semibold rounded-3xl text-center my-1 mr-4">
-                  Project Management
-                </span>
-                <span className="text-[#4640DE] p-2 bg-[#F8F8FD] w-fit inline-block text-base font-semibold rounded-3xl text-center my-1 mr-4">
-                  Project Management
-                </span>
-                <span className="text-[#4640DE] p-2 bg-[#F8F8FD] w-fit inline-block text-base font-semibold rounded-3xl text-center my-1 mr-4">
-                  Project Management
-                </span>
+                {job?.required_skills.map((item: any, index: any) => {
+                  return (
+                    <span
+                      key={index}
+                      className="text-[#4640DE] p-2 bg-[#F8F8FD] w-fit inline-block text-base font-semibold rounded-3xl text-center my-1 mr-4"
+                    >
+                      {item}
+                    </span>
+                  )
+                })}
               </div>
             </div>
           </div>
@@ -170,4 +168,4 @@ const jobDescriptions = () => {
   )
 }
 
-export default jobDescriptions
+export default JobDescriptions
