@@ -8,8 +8,8 @@ import Login from './components/Applicants/Login/Login';
 import Signup from './components/Applicants/Signup/Signup';
 import SearchCompanies from './components/Applicants/SearchCompanies/SearchCompanies';
 import NotFoundPage from './components/Basic/NotFoundPage';
-import './App.css';
 import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
+import './App.css';
 
 function App() {
   return (

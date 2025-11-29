@@ -1,38 +1,73 @@
 import type { JSX } from "react";
+import mainImage from "../../../assets/images/Logo.svg"
+import HouseIcon from "../../../assets/icons/house-solid-full (1).svg" 
+import FolderIcon from "../../../assets/icons/folder-closed-solid-full.svg" 
+import UserIcon from "../../../assets/icons/user-solid-full.svg" 
+import HelpIcon from "../../../assets/icons/circle-question-regular-full.svg" 
+import GearIcon from "../../../assets/icons/gear-solid-full.svg" 
+import ProfileImage from "../../../assets/images/Property 1=Divvy.png" 
 
-// Sidebar component (standalone)
+
 export function DashboardSidebarComponent(): JSX.Element {
   return (
-    <aside style={{width: 280, minHeight: '100vh', background: '#fbfdff', borderRight: '1px solid #eef2f7', padding: 24, boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+    <aside className="
+      w-64 min-h-screen bg-[#fbfdff] border-r border-gray-200 
+      p-6 flex flex-col justify-between 
+      max-md:hidden
+    ">
+      {/* Top section */}
       <div>
-        <div style={{display: 'flex', alignItems: 'center', gap: 12, marginBottom: 28}}>
-          <img src={'/mnt/data/0f71f64b-cdee-42ef-8b5a-20a3be3aa0ca.png'} alt="JobHuntly logo" style={{width: 36, height: 36, borderRadius: 8}} />
-          <div style={{fontWeight: 700, fontSize: 16}}>JobHuntly</div>
+        {/* Logo */}
+        <div className="flex items-center gap-3 pb-5">
+          <img
+            src={mainImage}
+            alt="JobHuntly logo"
+            className="object-cover"
+          />
         </div>
 
-        <nav style={{display: 'flex', flexDirection: 'column', gap: 12, color: '#4b5563'}}>
-          <a href="#" style={{display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 8, textDecoration: 'none', color: 'inherit'}}>🏠 Dashboard</a>
-          <a href="#" style={{display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 8, textDecoration: 'none', color: 'inherit'}}>📁 My Applications</a>
-          {/* <a href="#" style={{display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 8, textDecoration: 'none', color: 'inherit'}}>🔎 Find Jobs</a>
-          <a href="#" style={{display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 8, textDecoration: 'none', color: 'inherit'}}>🏢 Browse Companies</a> */}
-          <a href="#" style={{display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 8, textDecoration: 'none', color: 'inherit'}}>👤 My Public Profile</a>
+        {/* Navigation */}
+        <nav className="flex flex-col gap-3 text-[#7C8493]">
+          <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100" href="#">
+            <img className="w-6 h-6" src={HouseIcon }  alt="houseIcon" /> Dashboard
+          </a>
+
+          <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100" href="#">
+            <img  className="w-6 h-6" src={FolderIcon }  alt="folderIcon" /> My Applications
+          </a>
+
+          <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100" href="./">
+            <img  className="w-6 h-6" src={UserIcon }  alt="UserIcon" /> My Public Profile
+          </a>
         </nav>
 
-        <div style={{marginTop: 36}}>
-          <div style={{fontSize: 12, color: '#9ca3af', textTransform: 'uppercase', marginBottom: 8}}>Settings</div>
-          <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: 8}}>
-            <li style={{padding: 10, borderRadius: 8, background: '#f5f3ff', fontWeight: 600}}>Settings</li>
-            <li style={{padding: 10, borderRadius: 8}}>Help Center</li>
+        {/* Settings */}
+        <div className="mt-10 text-[#7C8493]">
+          <h4 className="text-xs text-[#7C8493] uppercase mb-2">Settings</h4>
+
+          <ul className="space-y-2">
+            <li className=" flex items-center gap-3 px-3 py-2 rounded-lg bg-purple-50 text-[#4640DE] font-semibold cursor-pointer">
+             <img  className="w-6 h-6" src={GearIcon }  alt="gearIcon" /> Settings
+            </li>
+            <li className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+             <img  className="w-6 h-6" src={HelpIcon }  alt="helpIcon" /> Help Center
+            </li>
           </ul>
         </div>
       </div>
 
-      <div style={{display: 'flex', alignItems: 'center', gap: 12}}>
-        <img src={'/mnt/data/fb6c2671-c864-476f-b70f-4b9bbc6d1be0.png'} alt="avatar" style={{width: 44, height: 44, borderRadius: '50%', objectFit: 'cover'}} />
-        <div style={{fontSize: 13}}>
-          <button> Log Out </button>
-          <div style={{fontWeight: 700}}>Jake Gyll</div>
-          <div style={{color: '#9ca3af', fontSize: 12}}>jakegyll@email.com</div>
+      {/* Profile / Logout */}
+      <div className="flex items-center gap-3 mt-6">
+        <img
+          src={ProfileImage}
+          alt="avatar"
+          className="w-11 h-11 rounded-full object-cover"
+        />
+
+        <div className="text-sm">
+          <button className="text-red-500 text-xs mb-1 hover:underline">Log Out</button>
+          <div className="font-semibold">Jake Gyll</div>
+          <div className="text-[#7C8493] text-xs">jakegyll@email.com</div>
         </div>
       </div>
     </aside>
