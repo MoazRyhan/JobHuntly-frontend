@@ -127,7 +127,7 @@
   "jobs": [
     {
       "id": 1,
-      "title": "Social Media Assistant",
+      "title": "Social Media Assistant 1",
       "image": "/CompanyLogo.png",
       "company": "Stripe ",
       "location": "Paris, France ",
@@ -175,174 +175,205 @@
         "Copy Editing"
       ]
     },
-
     {
-      "id": "job_108",
-      "companyId": "comp_001",
-      "title": "Growth Product Manager",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "Berlin, Germany",
-      "categories": ["Product", "Growth"],
-      "salary": {
-        "min": 70000,
-        "max": 90000,
-        "currency": "EUR",
-        "period": "yearly"
+      "id": 2,
+      "title": "Social Media Assistant 2",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
       },
-      "postedAt": "2023-11-05T08:30:00Z",
-      "description": "<p>Lead growth experiments and convert visitors into active users.</p>",
-      "requirements": ["A/B testing", "Data-driven", "SQL"],
-      "capacity": 1,
-      "applicantsCount": 26,
-      "isHot": true
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
     },
     {
-      "id": "job_109",
-      "companyId": "comp_002",
-      "title": "Mobile Engineer (iOS)",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "San Francisco, USA",
-      "categories": ["Engineering", "Mobile"],
-      "salary": {
-        "min": 140000,
-        "max": 180000,
-        "currency": "USD",
-        "period": "yearly"
+      "id": 3,
+      "title": "Social Media Assistant 3",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
       },
-      "postedAt": "2023-11-03T10:15:00Z",
-      "description": "<p>Build delightful mobile experiences for millions of users.</p>",
-      "requirements": ["Swift", "Architecture", "Unit testing"],
-      "capacity": 2,
-      "applicantsCount": 112,
-      "isHot": true
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
     },
     {
-      "id": "job_110",
-      "companyId": "comp_004",
-      "title": "Data Scientist",
-      "type": "Full-Time",
-      "level": "Senior",
-      "location": "Remote",
-      "categories": ["Data"],
-      "salary": {
-        "min": 90000,
-        "max": 130000,
-        "currency": "USD",
-        "period": "yearly"
+      "id": 4,
+      "title": "Social Media Assistant 4",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
       },
-      "postedAt": "2023-10-30T14:00:00Z",
-      "description": "<p>Build models for personalization and recommendations.</p>",
-      "requirements": ["Python", "ML pipelines", "Production experience"],
-      "capacity": 2,
-      "applicantsCount": 64,
-      "isHot": false
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
     },
     {
-      "id": "job_111",
-      "companyId": "comp_005",
-      "title": "Customer Success Associate",
-      "type": "Full-Time",
-      "level": "Junior",
-      "location": "New York, USA",
-      "categories": ["Customer Success"],
-      "salary": {
-        "min": 35000,
-        "max": 45000,
-        "currency": "USD",
-        "period": "yearly"
+      "id": 5,
+      "title": "Social Media Assistant 5",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
       },
-      "postedAt": "2023-10-28T09:30:00Z",
-      "description": "<p>Support customers and help them succeed with our tools.</p>",
-      "requirements": ["Customer-facing experience", "Empathy"],
-      "capacity": 3,
-      "applicantsCount": 19,
-      "isHot": false
-    },
-    {
-      "id": "job_112",
-      "companyId": "comp_001",
-      "title": "Frontend Engineer (React)",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "Berlin, Germany",
-      "categories": ["Engineering", "Frontend"],
-      "salary": {
-        "min": 55000,
-        "max": 75000,
-        "currency": "EUR",
-        "period": "yearly"
-      },
-      "postedAt": "2023-10-27T11:45:00Z",
-      "description": "<p>Work on our web app to deliver performant user experiences.</p>",
-      "requirements": ["React", "TypeScript", "Testing"],
-      "capacity": 2,
-      "applicantsCount": 43,
-      "isHot": true
-    },
-    {
-      "id": "job_113",
-      "companyId": "comp_002",
-      "title": "Content Designer",
-      "type": "Contract",
-      "level": "Mid Level",
-      "location": "San Francisco, USA",
-      "categories": ["Design", "Content"],
-      "salary": {
-        "min": 60,
-        "max": 90,
-        "currency": "USD",
-        "period": "hourly"
-      },
-      "postedAt": "2023-10-26T16:20:00Z",
-      "description": "<p>Create microcopy and content strategies for product surfaces.</p>",
-      "requirements": ["Writing portfolio", "UX understanding"],
-      "capacity": 1,
-      "applicantsCount": 31,
-      "isHot": false
-    },
-    {
-      "id": "job_114",
-      "companyId": "comp_003",
-      "title": "QA Automation Engineer",
-      "type": "Full-Time",
-      "level": "Mid Level",
-      "location": "Remote",
-      "categories": ["Engineering", "QA"],
-      "salary": {
-        "min": 50000,
-        "max": 70000,
-        "currency": "USD",
-        "period": "yearly"
-      },
-      "postedAt": "2023-10-22T12:10:00Z",
-      "description": "<p>Implement test automation and ensure product quality.</p>",
-      "requirements": ["Selenium or Playwright", "CI experience"],
-      "capacity": 2,
-      "applicantsCount": 27,
-      "isHot": false
-    },
-    {
-      "id": "job_115",
-      "companyId": "comp_004",
-      "title": "Security Engineer",
-      "type": "Full-Time",
-      "level": "Senior",
-      "location": "Stockholm, Sweden",
-      "categories": ["Security"],
-      "salary": {
-        "min": 90000,
-        "max": 140000,
-        "currency": "EUR",
-        "period": "yearly"
-      },
-      "postedAt": "2023-10-21T10:00:00Z",
-      "description": "<p>Protect user data and secure our infrastructure.</p>",
-      "requirements": ["Security audits", "Incident response"],
-      "capacity": 1,
-      "applicantsCount": 12,
-      "isHot": false
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
     }
   ],
   "applicants": [

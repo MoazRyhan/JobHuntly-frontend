@@ -8,7 +8,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog'
-import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 
@@ -32,18 +31,24 @@ export function ApplyButton() {
             </DialogDescription>
           </DialogHeader>
           <div className="grid gap-4">
-            <div className="grid gap-3">
-              <Label htmlFor="email">Email Address</Label>
-              <Input id="email" name="email" />
-            </div>
-            <div className="grid gap-3">
-              <Label htmlFor="LinkedIn">LinkedIn URL</Label>
-              <Input id="LinkedIn" name="LinkedIn" />
-            </div>
-            <div className="grid gap-3">
-              <Label htmlFor="Portfolio">Portfolio URL</Label>
-              <Input id="Portfolio" name="Portfolio" />
-            </div>
+            <Label htmlFor="salary-expectations">
+              What are your salary expectations?
+            </Label>
+            <Textarea
+              id="salary-expectations"
+              name="salary-expectations"
+              placeholder="Write your answer here.."
+              maxLength={500}
+            />
+            <Label htmlFor="ideal-candidate">
+              What makes you the ideal candidate for this position?
+            </Label>
+            <Textarea
+              id="ideal-candidate"
+              name="ideal-candidate"
+              placeholder="Write your answer here.."
+              maxLength={500}
+            />
             <Label htmlFor="additional-info">Additional information</Label>
             <Textarea
               id="additional-info"

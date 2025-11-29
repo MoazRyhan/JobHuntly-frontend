@@ -4,8 +4,10 @@ import SimilarJops from './SimilarJops.tsx'
 import { useEffect, useState } from 'react'
 import instance from '../../AxiosConfig/instance.ts'
 import './style.css'
+import { useParams } from 'react-router-dom'
 
 const JobDescriptions = () => {
+  const { id } = useParams()
   type Job = {
     [key: string]: any
   }
@@ -13,7 +15,7 @@ const JobDescriptions = () => {
 
   async function getJop() {
     try {
-      const res = await instance.get(`/jobs/1`)
+      const res = await instance.get(`/jobs/${id}`)
       setJob(res.data)
     } catch (err) {
       console.log(err)
