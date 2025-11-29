@@ -1,4 +1,4 @@
-@import "tailwindcss";  /* to link the tailwind with css here to can use it*/ 
+@import 'tailwindcss'; /* to link the tailwind with css here to can use it*/
 
 @layer base {
   * {

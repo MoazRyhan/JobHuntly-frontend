@@ -1,0 +1,731 @@
+{
+  "currentUser": {
+    "id": "user_applicant_001",
+    "role": "APPLICANT",
+    "fullName": "Jake Gyllenhaal",
+    "email": "jake@example.com",
+    "avatar": "https://i.pravatar.cc/150?u=user_applicant_001",
+    "location": "Berlin, Germany",
+    "bio": "Product Designer with 5 years of experience in SaaS and Fintech. Obsessed with clean UI and accessible UX."
+  },
+  "stats": {
+    "recruiter": {
+      "total_applicants": 1452,
+      "jobs_posted": 14,
+      "jobs_open": 8,
+      "total_views": 24500,
+      "applications_growth": 12.5,
+      "views_growth": 5.2,
+      "chart_data": [
+        { "date": "2025-06-01", "applications": 400 },
+        { "date": "2025-07-01", "applications": 520 },
+        { "date": "2025-08-01", "applications": 610 },
+        { "date": "2025-09-01", "applications": 720 },
+        { "date": "2025-10-01", "applications": 830 },
+        { "date": "2025-11-01", "applications": 900 }
+      ]
+    },
+    "applicant": {
+      "applied": 24,
+      "reviewing": 8,
+      "interviewing": 3,
+      "offers": 1
+    }
+  },
+  "companies": [
+    {
+      "id": "comp_001",
+      "name": "Nebula Labs",
+      "slug": "nebula-labs",
+      "logo": "https://dummyimage.com/100x100/000/fff&text=N",
+      "coverImage": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=80",
+      "website": "https://nebulalabs.example.com",
+      "location": "Berlin, Germany",
+      "employeeCount": "50-200",
+      "industry": "SaaS",
+      "founded": 2018,
+      "description": "<p>Nebula Labs builds collaboration tools for remote design teams focused on speed and accessibility.</p>",
+      "techStack": ["React", "Node.js", "Postgres"],
+      "social": {
+        "linkedin": "https://linkedin.com/company/nebulalabs",
+        "twitter": "https://twitter.com/nebulalabs"
+      }
+    },
+    {
+      "id": "comp_002",
+      "name": "Discord",
+      "slug": "discord",
+      "logo": "https://cdn.worldvectorlogo.com/logos/discord-6.svg",
+      "coverImage": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
+      "website": "https://discord.com",
+      "location": "San Francisco, USA",
+      "employeeCount": "1000+",
+      "industry": "Social Media",
+      "founded": 2015,
+      "description": "<p>Discord is the easiest way to talk over voice, video, and text. Talk, hang out, and stay close with your friends and communities.</p>",
+      "techStack": ["Elixir", "React", "Postgres"],
+      "social": {
+        "linkedin": "https://linkedin.com/company/discord",
+        "twitter": "https://twitter.com/discord"
+      }
+    },
+    {
+      "id": "comp_003",
+      "name": "Maze",
+      "slug": "maze",
+      "logo": "https://cdn.worldvectorlogo.com/logos/maze.svg",
+      "coverImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+      "website": "https://maze.co",
+      "location": "Remote",
+      "employeeCount": "200-500",
+      "industry": "Design Tools",
+      "founded": 2017,
+      "description": "<p>Maze is a rapid testing platform that empowers designers and product teams to test and validate ideas quickly.</p>",
+      "techStack": ["Vue.js", "Nuxt", "Firebase"],
+      "social": {
+        "linkedin": "https://linkedin.com/company/maze",
+        "twitter": "https://twitter.com/maze"
+      }
+    },
+    {
+      "id": "comp_004",
+      "name": "Spotify",
+      "slug": "spotify",
+      "logo": "https://cdn.worldvectorlogo.com/logos/spotify-2.svg",
+      "coverImage": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1200&q=80",
+      "website": "https://spotify.com",
+      "location": "Stockholm, Sweden",
+      "employeeCount": "5000+",
+      "industry": "Music Streaming",
+      "founded": 2006,
+      "description": "<p>Spotify is a digital music service that gives you access to millions of songs.</p>",
+      "techStack": ["Java", "Kotlin", "React"],
+      "social": {
+        "linkedin": "https://linkedin.com/company/spotify",
+        "twitter": "https://twitter.com/spotify"
+      }
+    },
+    {
+      "id": "comp_005",
+      "name": "InVision",
+      "slug": "invision",
+      "logo": "https://cdn.worldvectorlogo.com/logos/invision.svg",
+      "coverImage": "https://images.unsplash.com/photo-1505238680356-667803448bb6?auto=format&fit=crop&w=1200&q=80",
+      "website": "https://invisionapp.com",
+      "location": "New York, USA",
+      "employeeCount": "500-1000",
+      "industry": "Design Collaboration",
+      "founded": 2011,
+      "description": "<p>InVision helps teams create better digital products by enabling rapid feedback and prototyping.</p>",
+      "techStack": ["Rails", "React", "Redis"],
+      "social": {
+        "linkedin": "https://linkedin.com/company/invision",
+        "twitter": "https://twitter.com/invision"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Social Media Assistant 1",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
+      },
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Social Media Assistant 2",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
+      },
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Social Media Assistant 3",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
+      },
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Social Media Assistant 4",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
+      },
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Social Media Assistant 5",
+      "image": "/CompanyLogo.png",
+      "company": "Stripe ",
+      "location": "Paris, France ",
+      "employment_type": "Full-Time",
+      "description": "Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.",
+      "job_needs": [
+        {
+          "Responsibilities": [
+            "Community engagement to ensure that is supported and actively represented online",
+            "Focus on social media content development and publication",
+            "Marketing and strategy support",
+            "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+            "Engage with online communities"
+          ]
+        },
+        {
+          "Who You Are": [
+            "You get energy from people and building the ideal work environment",
+            "You have a sense for beautiful spaces and office experiences",
+            "You are a confident office manager, ready for added responsibilities",
+            "You’re detail-oriented and creative",
+            "You’re a growth marketer and know how to run campaigns"
+          ]
+        },
+        {
+          "Nice To Haves": [
+            "Fluent in English",
+            "Project management skills",
+            "Copy editing skills"
+          ]
+        }
+      ],
+      "about_this_role": {
+        "apply_before": "July 31, 2021",
+        "job_posted_on": "July 1, 2021",
+        "job_type": "Full-Time",
+        "salary": "$75k–$85k USD"
+      },
+      "categories": ["Marketing", "Design"],
+      "required_skills": [
+        "Project Management",
+        "Copywriting",
+        "Social Media Marketing",
+        "English",
+        "Copy Editing"
+      ]
+    }
+  ],
+  "applicants": [
+    {
+      "id": "app_001",
+      "name": "Ali Mohamed",
+      "email": "ali.mohamed@example.com",
+      "phone": "+201234567890",
+      "status": "applied",
+      "appliedTo": ["job_101", "job_112"],
+      "appliedAt": "2025-11-20T10:30:00Z",
+      "cvUrl": "/files/cv-ali.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 2,
+      "skills": ["Figma", "Social Media", "Content"],
+      "avatar": "https://i.pravatar.cc/150?u=app_001"
+    },
+    {
+      "id": "app_002",
+      "name": "Sara Ahmed",
+      "email": "sara.ahmed@example.com",
+      "phone": "+201098765432",
+      "status": "interview",
+      "appliedTo": ["job_104"],
+      "appliedAt": "2025-11-22T12:10:00Z",
+      "cvUrl": "/files/cv-sara.pdf",
+      "location": "Alexandria, Egypt",
+      "experienceYears": 4,
+      "skills": ["UX", "Prototyping", "Research"],
+      "avatar": "https://i.pravatar.cc/150?u=app_002"
+    },
+    {
+      "id": "app_003",
+      "name": "Mohamed Salah",
+      "email": "m.salah@example.com",
+      "phone": "+201011122233",
+      "status": "reviewing",
+      "appliedTo": ["job_112", "job_108"],
+      "appliedAt": "2025-11-18T09:00:00Z",
+      "cvUrl": "/files/cv-mohamed.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 3,
+      "skills": ["React", "TypeScript", "Testing"],
+      "avatar": "https://i.pravatar.cc/150?u=app_003"
+    },
+    {
+      "id": "app_004",
+      "name": "Lina Hussein",
+      "email": "lina.hussein@example.com",
+      "phone": "+201022233344",
+      "status": "applied",
+      "appliedTo": ["job_101"],
+      "appliedAt": "2025-11-19T14:20:00Z",
+      "cvUrl": "/files/cv-lina.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 1,
+      "skills": ["Content", "Community"],
+      "avatar": "https://i.pravatar.cc/150?u=app_004"
+    },
+    {
+      "id": "app_005",
+      "name": "Omar Farouk",
+      "email": "omar.farouk@example.com",
+      "phone": "+201055566677",
+      "status": "applied",
+      "appliedTo": ["job_105", "job_114"],
+      "appliedAt": "2025-11-15T08:10:00Z",
+      "cvUrl": "/files/cv-omar.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 6,
+      "skills": ["HR", "Recruitment"],
+      "avatar": "https://i.pravatar.cc/150?u=app_005"
+    },
+    {
+      "id": "app_006",
+      "name": "Maya Khaled",
+      "email": "maya.khaled@example.com",
+      "phone": "+201099988877",
+      "status": "reviewing",
+      "appliedTo": ["job_107"],
+      "appliedAt": "2025-11-10T11:00:00Z",
+      "cvUrl": "/files/cv-maya.pdf",
+      "location": "Alexandria, Egypt",
+      "experienceYears": 5,
+      "skills": ["React", "Storybook", "Design Systems"],
+      "avatar": "https://i.pravatar.cc/150?u=app_006"
+    },
+    {
+      "id": "app_007",
+      "name": "Karim Nasser",
+      "email": "karim.nasser@example.com",
+      "phone": "+201012345678",
+      "status": "interviewing",
+      "appliedTo": ["job_106"],
+      "appliedAt": "2025-11-05T09:30:00Z",
+      "cvUrl": "/files/cv-karim.pdf",
+      "location": "Giza, Egypt",
+      "experienceYears": 7,
+      "skills": ["Kotlin", "Distributed Systems"],
+      "avatar": "https://i.pravatar.cc/150?u=app_007"
+    },
+    {
+      "id": "app_008",
+      "name": "Nora Youssef",
+      "email": "nora.youssef@example.com",
+      "phone": "+201077788899",
+      "status": "applied",
+      "appliedTo": ["job_111"],
+      "appliedAt": "2025-11-02T10:00:00Z",
+      "cvUrl": "/files/cv-nora.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 2,
+      "skills": ["Customer Support", "SaaS"],
+      "avatar": "https://i.pravatar.cc/150?u=app_008"
+    },
+    {
+      "id": "app_009",
+      "name": "Youssef Adel",
+      "email": "youssef.adel@example.com",
+      "phone": "+201066677788",
+      "status": "applied",
+      "appliedTo": ["job_109"],
+      "appliedAt": "2025-10-28T13:45:00Z",
+      "cvUrl": "/files/cv-youssef.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 4,
+      "skills": ["iOS", "Swift"],
+      "avatar": "https://i.pravatar.cc/150?u=app_009"
+    },
+    {
+      "id": "app_010",
+      "name": "Fatma Selim",
+      "email": "fatma.selim@example.com",
+      "phone": "+201055544433",
+      "status": "reviewing",
+      "appliedTo": ["job_104", "job_108"],
+      "appliedAt": "2025-10-21T08:00:00Z",
+      "cvUrl": "/files/cv-fatma.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 3,
+      "skills": ["Product", "Research"],
+      "avatar": "https://i.pravatar.cc/150?u=app_010"
+    },
+    {
+      "id": "app_011",
+      "name": "Hamada Nabil",
+      "email": "hamada.nabil@example.com",
+      "phone": "+201023456789",
+      "status": "applied",
+      "appliedTo": ["job_112"],
+      "appliedAt": "2025-10-18T12:30:00Z",
+      "cvUrl": "/files/cv-hamada.pdf",
+      "location": "Mansoura, Egypt",
+      "experienceYears": 2,
+      "skills": ["React", "CSS"],
+      "avatar": "https://i.pravatar.cc/150?u=app_011"
+    },
+    {
+      "id": "app_012",
+      "name": "Dina Omar",
+      "email": "dina.omar@example.com",
+      "phone": "+201044433322",
+      "status": "applied",
+      "appliedTo": ["job_101", "job_113"],
+      "appliedAt": "2025-10-15T15:50:00Z",
+      "cvUrl": "/files/cv-dina.pdf",
+      "location": "Tanta, Egypt",
+      "experienceYears": 1,
+      "skills": ["Content", "Microcopy"],
+      "avatar": "https://i.pravatar.cc/150?u=app_012"
+    },
+    {
+      "id": "app_013",
+      "name": "Samir Gharib",
+      "email": "samir.gharib@example.com",
+      "phone": "+201099911122",
+      "status": "reviewing",
+      "appliedTo": ["job_110"],
+      "appliedAt": "2025-10-10T09:20:00Z",
+      "cvUrl": "/files/cv-samir.pdf",
+      "location": "Aswan, Egypt",
+      "experienceYears": 6,
+      "skills": ["Python", "ML"],
+      "avatar": "https://i.pravatar.cc/150?u=app_013"
+    },
+    {
+      "id": "app_014",
+      "name": "Rana Saad",
+      "email": "rana.saad@example.com",
+      "phone": "+201099900011",
+      "status": "applied",
+      "appliedTo": ["job_115"],
+      "appliedAt": "2025-10-08T11:05:00Z",
+      "cvUrl": "/files/cv-rana.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 8,
+      "skills": ["Security", "Audits"],
+      "avatar": "https://i.pravatar.cc/150?u=app_014"
+    },
+    {
+      "id": "app_015",
+      "name": "Ibrahim Mustafa",
+      "email": "ibrahim.mustafa@example.com",
+      "phone": "+201066699988",
+      "status": "applied",
+      "appliedTo": ["job_103", "job_114"],
+      "appliedAt": "2025-10-05T10:40:00Z",
+      "cvUrl": "/files/cv-ibrahim.pdf",
+      "location": "Luxor, Egypt",
+      "experienceYears": 4,
+      "skills": ["WebGL", "Canvas", "JS"],
+      "avatar": "https://i.pravatar.cc/150?u=app_015"
+    },
+    {
+      "id": "app_016",
+      "name": "Salma Hafez",
+      "email": "salma.hafez@example.com",
+      "phone": "+201011166655",
+      "status": "applied",
+      "appliedTo": ["job_111"],
+      "appliedAt": "2025-09-30T09:00:00Z",
+      "cvUrl": "/files/cv-salma.pdf",
+      "location": "Damietta, Egypt",
+      "experienceYears": 2,
+      "skills": ["Customer Support", "SaaS"],
+      "avatar": "https://i.pravatar.cc/150?u=app_016"
+    },
+    {
+      "id": "app_017",
+      "name": "Zeyad Farid",
+      "email": "zeyad.farid@example.com",
+      "phone": "+201022244455",
+      "status": "reviewing",
+      "appliedTo": ["job_106"],
+      "appliedAt": "2025-09-25T08:20:00Z",
+      "cvUrl": "/files/cv-zeyad.pdf",
+      "location": "Suez, Egypt",
+      "experienceYears": 5,
+      "skills": ["Kotlin", "Distributed Systems"],
+      "avatar": "https://i.pravatar.cc/150?u=app_017"
+    },
+    {
+      "id": "app_018",
+      "name": "Mona El-Sayed",
+      "email": "mona.elsayed@example.com",
+      "phone": "+201088877766",
+      "status": "applied",
+      "appliedTo": ["job_108"],
+      "appliedAt": "2025-09-20T10:10:00Z",
+      "cvUrl": "/files/cv-mona.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 3,
+      "skills": ["Growth", "Analytics"],
+      "avatar": "https://i.pravatar.cc/150?u=app_018"
+    },
+    {
+      "id": "app_019",
+      "name": "Tamer Kamel",
+      "email": "tamer.kamel@example.com",
+      "phone": "+201055533344",
+      "status": "applied",
+      "appliedTo": ["job_109", "job_112"],
+      "appliedAt": "2025-09-15T07:45:00Z",
+      "cvUrl": "/files/cv-tamer.pdf",
+      "location": "Mansoura, Egypt",
+      "experienceYears": 5,
+      "skills": ["iOS", "Swift"],
+      "avatar": "https://i.pravatar.cc/150?u=app_019"
+    },
+    {
+      "id": "app_020",
+      "name": "Amira Hassan",
+      "email": "amira.hassan@example.com",
+      "phone": "+201099922233",
+      "status": "reviewing",
+      "appliedTo": ["job_107"],
+      "appliedAt": "2025-09-12T12:00:00Z",
+      "cvUrl": "/files/cv-amira.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 4,
+      "skills": ["React", "Design Systems"],
+      "avatar": "https://i.pravatar.cc/150?u=app_020"
+    },
+    {
+      "id": "app_021",
+      "name": "Hossam Ali",
+      "email": "hossam.ali@example.com",
+      "phone": "+201055521234",
+      "status": "applied",
+      "appliedTo": ["job_101"],
+      "appliedAt": "2025-09-10T09:10:00Z",
+      "cvUrl": "/files/cv-hossam.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 1,
+      "skills": ["Community", "Content"],
+      "avatar": "https://i.pravatar.cc/150?u=app_021"
+    },
+    {
+      "id": "app_022",
+      "name": "Basem Omar",
+      "email": "basem.omar@example.com",
+      "phone": "+201012312345",
+      "status": "applied",
+      "appliedTo": ["job_114"],
+      "appliedAt": "2025-09-05T10:30:00Z",
+      "cvUrl": "/files/cv-basem.pdf",
+      "location": "Alexandria, Egypt",
+      "experienceYears": 3,
+      "skills": ["QA", "Automation"],
+      "avatar": "https://i.pravatar.cc/150?u=app_022"
+    },
+    {
+      "id": "app_023",
+      "name": "Ramy Elsawy",
+      "email": "ramy.elsawy@example.com",
+      "phone": "+201077700011",
+      "status": "applied",
+      "appliedTo": ["job_103"],
+      "appliedAt": "2025-08-30T16:00:00Z",
+      "cvUrl": "/files/cv-ramy.pdf",
+      "location": "Asyut, Egypt",
+      "experienceYears": 4,
+      "skills": ["WebGL", "Interactive"],
+      "avatar": "https://i.pravatar.cc/150?u=app_023"
+    },
+    {
+      "id": "app_024",
+      "name": "Noha Adel",
+      "email": "noha.adel@example.com",
+      "phone": "+201011199900",
+      "status": "applied",
+      "appliedTo": ["job_110"],
+      "appliedAt": "2025-08-25T11:40:00Z",
+      "cvUrl": "/files/cv-noha.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 5,
+      "skills": ["Data", "Python"],
+      "avatar": "https://i.pravatar.cc/150?u=app_024"
+    },
+    {
+      "id": "app_025",
+      "name": "Yara Mokhtar",
+      "email": "yara.mokhtar@example.com",
+      "phone": "+201055588899",
+      "status": "applied",
+      "appliedTo": ["job_115"],
+      "appliedAt": "2025-08-20T09:00:00Z",
+      "cvUrl": "/files/cv-yara.pdf",
+      "location": "Cairo, Egypt",
+      "experienceYears": 9,
+      "skills": ["Security", "Compliance"],
+      "avatar": "https://i.pravatar.cc/150?u=app_025"
+    }
+  ]
+}
