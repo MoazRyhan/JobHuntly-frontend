@@ -42,7 +42,7 @@ function CompanyPage({ company }: Props) {
             <div className="flex-1 space-y-2 text-center md:text-left">
               {/* name + jobs */}
               <div className="flex flex-col md:flex-row items-center md:items-center gap-3 md:gap-4">
-                <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 overflow-hidden">
                   {company.name}
                 </h1>
 
