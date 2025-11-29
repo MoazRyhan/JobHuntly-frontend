@@ -7,13 +7,8 @@ import Login from './components/Applicants/Login/Login';
 import Signup from './components/Applicants/Signup/Signup';
 import SearchCompanies from './components/Applicants/SearchCompanies/SearchCompanies';
 import NotFoundPage from './components/Basic/NotFoundPage';
-import CompanyPage from "./components/Applicants/CompanyProfile/CompanyPage";
-import { testCompany } from "./Data/testCompany";
-import JobDescriptions from './components/Applicants/JobDescriptions/JobDescriptions'
-import CompanyDashboard from './components/Recruiters/Dashboard/Dashboard';
 // import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 import './App.css';
-import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 
 function App() {
 
@@ -24,7 +19,6 @@ function App() {
         <main className="grow">
           <Routes>
             <Route path="/Landing" element={<LandingPage />} />
-            <Route path="/" element={<DashboardSettings />} />
             <Route path="/find-jobs" element={<FindJobs />} />
             <Route path="/browse-companies" element={<SearchCompanies />} />
             <Route path="/job-descriptions" element={<JobDescriptions />} />

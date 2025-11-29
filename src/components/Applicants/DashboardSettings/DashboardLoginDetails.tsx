@@ -22,7 +22,7 @@ export function DashboardLoginDetails(): JSX.Element {
 
             <div style={{width: '48%'}}>
               <input placeholder="Enter your new email" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6}} />
-              <button style={{marginTop: 12, padding: '10px 14px', background: '#5b21b6', color: '#fff', borderRadius: 6, border: 'none'}}>Update Email</button>
+              <button style={{marginTop: 12, padding: '10px 14px', background: '#4640DE' , color: '#fff', borderRadius: 6, border: 'none'}}>Update Email</button>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export function DashboardLoginDetails(): JSX.Element {
               <input placeholder="Enter your old password" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
               <label style={{display: 'block', fontSize: 13, marginTop: 12}}>New Password</label>
               <input placeholder="Enter your new password" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
-              <button style={{marginTop: 14, padding: '10px 14px', background: '#5b21b6', color: '#fff', borderRadius: 6, border: 'none'}}>Change Password</button>
+              <button style={{marginTop: 14, padding: '10px 14px', background: '#4640DE', color: '#fff', borderRadius: 6, border: 'none'}}>Change Password</button>
             </div>
           </div>
         </div>

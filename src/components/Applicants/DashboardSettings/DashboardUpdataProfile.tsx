@@ -33,22 +33,22 @@ export function DashboardUpdataProfile(): JSX.Element {
           <form style={{marginTop: 18, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12}}>
             <div>
               <label style={{display: 'block', fontSize: 13, fontWeight: 600}}>Full Name</label>
-              <input defaultValue="Jake Gyll" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
+              <input  style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
             </div>
 
             <div>
               <label style={{display: 'block', fontSize: 13, fontWeight: 600}}>Email</label>
-              <input defaultValue="Jakegyll@gmail.com" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
+              <input  style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
             </div>
 
             <div>
               <label style={{display: 'block', fontSize: 13, fontWeight: 600}}>Phone Number</label>
-              <input defaultValue="+44 1245 572 135" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
+              <input  style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
             </div>
 
             <div>
               <label style={{display: 'block', fontSize: 13, fontWeight: 600}}>Date of Birth</label>
-              <input defaultValue="09/08/1997" style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
+              <input  style={{width: '100%', padding: 10, border: '1px solid #e6e7eb', borderRadius: 6, marginTop: 8}} />
             </div>
 
             <div style={{gridColumn: '1 / -1', display: 'flex', alignItems: 'center', gap: 18, marginTop: 8}}>
@@ -63,7 +63,7 @@ export function DashboardUpdataProfile(): JSX.Element {
               </label>
 
               <div style={{marginLeft: 'auto'}}>
-                <button type="button" style={{padding: '10px 14px', background: '#5b21b6', color: '#fff', borderRadius: 6, border: 'none'}}>Save Profile</button>
+                <button type="button" style={{padding: '10px 14px', background: '#4640DE', color: '#fff', borderRadius: 6, border: 'none'}}>Save Profile</button>
               </div>
             </div>
           </form>
