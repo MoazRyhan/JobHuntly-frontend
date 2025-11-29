@@ -14,6 +14,7 @@ import JobDescriptions from './components/Applicants/JobDescriptions/JobDescript
 import CompanyDashboard from './components/Recruiters/Dashboard/Dashboard';
 // import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 import './App.css';
+import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 
 function App() {
 
@@ -23,8 +24,8 @@ function App() {
         <Navbar />
         <main className="grow">
           <Routes>
-
-            <Route path="/" element={<LandingPage />} />
+            <Route path="/Landing" element={<LandingPage />} />
+            <Route path="/" element={<DashboardSettings />} />
             <Route path="/find-jobs" element={<FindJobs />} />
             <Route path="/browse-companies" element={<SearchCompanies />} />
             <Route path="/job-descriptions" element={<JobDescriptions />} />
