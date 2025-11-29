@@ -10,6 +10,8 @@ import NotFoundPage from './components/Basic/NotFoundPage';
 import CompanyPage from "./components/Applicants/CompanyProfile/CompanyPage";
 import { testCompany } from "./Data/testCompany";
 import Dashboard from './components/Recruiters/Dashboard/Dashboard';
+import JobDescriptions from './components/Applicants/JobDescriptions/JobDescriptions'
+import CompanyDashboard from './components/Recruiters/Dashboard/Dashboard';
 // import DashboardSettings from './components/Applicants/DashboardSettings/DashboardSettings';
 import './App.css';
 
@@ -25,36 +27,27 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/find-jobs" element={<FindJobs />} />
             <Route path="/browse-companies" element={<SearchCompanies />} />
+            <Route path="/job-descriptions" element={<JobDescriptions />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-            
-            <Route
-              path="/companies"
-              element={<CompanyPage company={testCompany} />}
-            />
-            <Route
-              path="/companies/:id"
-              element={<CompanyPage company={testCompany} />}
-            />
             <Route path="*" element={<NotFoundPage />} />
 
-            <Route
-              path="/companies"
-              element={<CompanyPage company={testCompany} />}
-            />
-            <Route
-              path="/companies/:id"
-              element={<CompanyPage company={testCompany} />}
-            />
+             // mariz
+            <Route path="/companies" element={<CompanyPage company={testCompany} />}/>
+            <Route path="/companies/:id" element={<CompanyPage company={testCompany} />} />
+            
+
+            
             // this is handled for now ( moaz )
             <Route path="/Company" element={<Dashboard />} />
+            <Route path="/company" element={<CompanyDashboard />} />
             {/* <Route path="/" element={<DashboardSettings />} /> */}
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
