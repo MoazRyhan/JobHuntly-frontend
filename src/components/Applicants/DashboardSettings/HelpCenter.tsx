@@ -89,7 +89,10 @@ export function DashboardHelpCenter(): JSX.Element {
   // Root outer class uses font-sans (Inter via global CSS)
   return (
     <div className="min-h-screen bg-gray-50 p-6 font-sans antialiased">
-      <PageHeader title="Help center" />
+      <PageHeader 
+        title="Help center"     
+        buttonText="Back to homepage"
+        buttonLink="/Dashboard" />
 
       <div className="max-w-6xl mx-auto mt-6 space-y-8">
         {/* Search + CTAs */}

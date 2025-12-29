@@ -26,7 +26,7 @@ function Navbar() {
                 Find Jobs
               </Link>
               <Link
-                to="/companies"
+                to="/browse-companies"
                 className="text-gray-700 hover:text-gray-900 font-medium text-sm"
               >
                 Browse Companies

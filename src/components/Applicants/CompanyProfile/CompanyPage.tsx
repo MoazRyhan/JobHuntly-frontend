@@ -66,7 +66,6 @@ function CompanyPage({ company }: Props) {
                 <CompanyStats
                   founded={company.founded}
                   employees={company.employees}
-                  // location={company.locations.length}
                   location={company?.locations?.length || 0}
                   industry={company.industry}
                 />

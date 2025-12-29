@@ -1,6 +1,6 @@
 import ProfileImage from "../../../assets/images/alex-suprun-ZHvM3XIOHoE-unsplash 1.png";
 import type { JSX } from "react";
-import { Link } from "react-router-dom";
+import { PageHeader } from "../DashboardSettings/headParts/headerPart";
 
 /**
  * Responsive Tailwind version of the Public Profile page.
@@ -12,19 +12,10 @@ export function DashboardPublicProfile(): JSX.Element {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       {/* Page header */}
-      <header className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
-        <div>
-          <h1 className="text-2xl font-bold text-slate-900">My Profile</h1>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <Link to="/" className="inline-block">
-            <button className="px-4 py-2 border border-purple-200 rounded text-[#4640DE] text-sm hover:bg-purple-50">
-              Back to homepage
-            </button>
-          </Link>
-        </div>
-      </header>
+            <PageHeader 
+              title="My Profile"     
+              buttonText="Back to homepage"
+              buttonLink="/Dashboard" />
 
       {/* Banner */}
       <section className="bg-white rounded-lg p-6 border border-gray-100 mb-8">

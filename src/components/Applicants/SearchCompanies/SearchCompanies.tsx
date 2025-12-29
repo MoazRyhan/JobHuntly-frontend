@@ -1,5 +1,3 @@
-import React from 'react'
-
 
  function SearchCompanies() {
 
@@ -7,7 +5,7 @@ import React from 'react'
 
   return (
     <> 
-    SearchCompanies
+    <h1>SearchCompanies</h1>
     </>
   )
 }
